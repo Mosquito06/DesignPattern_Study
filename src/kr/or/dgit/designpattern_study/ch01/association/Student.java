@@ -5,10 +5,16 @@ import java.util.List;
 
 public class Student {
 	private List<Course> courses;
+	private String name;
 
-	public Student() {
+	public Student(String studentName) {
 		super();
 		courses = new ArrayList<>();
+		this.name = studentName;
+	}
+
+	public String getName() {
+		return name;
 	}
 
 	public List<Course> getCourses() {
@@ -22,4 +28,5 @@ public class Student {
 	public void dropCourse(Course course) {
 		courses.remove(course);
 	}
+
 }

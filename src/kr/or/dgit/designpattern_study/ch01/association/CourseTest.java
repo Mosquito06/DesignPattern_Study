@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class CourseTest {
 
 	public static void main(String[] args) {
-		Student student = new Student();
+		Student student = new Student("배재진");
 		
 		Course math = new Math();
 		Course eng = new Eng();
@@ -18,7 +18,7 @@ public class CourseTest {
 		Iterator<Course> courses = student.getCourses().iterator();
 		
 		while(courses.hasNext()) {
-			System.out.println(courses.next().toString());
+			System.out.printf("%s 학생이 수강한 과목은 %s 입니다.\n", student.getName(), courses.next().toString());
 		}
 	}
 
