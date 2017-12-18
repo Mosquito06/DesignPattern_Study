@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="kr.or.dgit.designpattern_study.ch08.Button" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/Button.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="269" y="187"/>    
+    <position height="-1" width="-1" x="315" y="125"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -13,7 +13,7 @@
   <interface id="2" language="java" name="kr.or.dgit.designpattern_study.ch08.Command" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/Command.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="676" y="189"/>    
+    <position height="-1" width="-1" x="724" y="120"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -24,7 +24,7 @@
     project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/AlarmStartCommand.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="885" y="459"/>    
+    <position height="-1" width="-1" x="933" y="390"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -34,7 +34,7 @@
   <class id="4" language="java" name="kr.or.dgit.designpattern_study.ch08.LampOnCommand" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/LampOnCommand.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="507" y="456"/>    
+    <position height="-1" width="-1" x="555" y="387"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -44,7 +44,7 @@
   <class id="5" language="java" name="kr.or.dgit.designpattern_study.ch08.KindOfLamp" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/KindOfLamp.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="328" y="685"/>    
+    <position height="-1" width="-1" x="376" y="616"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -54,7 +54,7 @@
   <class id="6" language="java" name="kr.or.dgit.designpattern_study.ch08.KindOfAlarm" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/KindOfAlarm.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1019" y="679"/>    
+    <position height="-1" width="-1" x="1067" y="610"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -64,7 +64,7 @@
   <class id="7" language="java" name="kr.or.dgit.designpattern_study.ch08.General" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/General.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="873" y="850"/>    
+    <position height="-1" width="-1" x="921" y="781"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -74,7 +74,7 @@
   <class id="8" language="java" name="kr.or.dgit.designpattern_study.ch08.Emergence" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/Emergence.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1159" y="851"/>    
+    <position height="-1" width="-1" x="1207" y="782"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -83,7 +83,7 @@
   </class>  
   <class id="9" language="java" name="kr.or.dgit.designpattern_study.ch08.Lamp" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/Lamp.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="182" y="844"/>    
+    <position height="-1" width="-1" x="230" y="775"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -93,7 +93,7 @@
   <class id="10" language="java" name="kr.or.dgit.designpattern_study.ch08.SleepLamp" project="DesignPattern_Study" 
     file="/DesignPattern_Study/src/kr/or/dgit/designpattern_study/ch08/SleepLamp.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="459" y="849"/>    
+    <position height="-1" width="-1" x="507" y="780"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
