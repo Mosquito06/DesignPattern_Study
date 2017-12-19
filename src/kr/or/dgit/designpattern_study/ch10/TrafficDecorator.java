@@ -9,10 +9,10 @@ public class TrafficDecorator extends DisplayDecorator {
 	@Override
 	public void draw() {
 		super.draw();
-		drawLane();
+		drawTraffic();
 	}
 	
-	public void drawLane() {
+	public void drawTraffic() {
 		System.out.println("\t교통량 표시");
 	}
 }
