@@ -4,14 +4,22 @@ public class Test {
 
 	public static void main(String[] args) {
 		Door door = new Door();
-		HyundaiMotor hyundaiMotor = new HyundaiMotor(door);
+		Motor HyundaiMotor = new HyundaiMotor(door);
+		Motor LGMotor = new LGMotor(door);
+		Motor SamsungMotor = new SamsungMotor(door);
 		
-		hyundaiMotor.move(Direction.UP);
+		HyundaiMotor.move(Direction.UP);
+		LGMotor.move(Direction.UP);
+		SamsungMotor.move(Direction.UP);
 		
-		hyundaiMotor.setMotorStatus(MotorStatus.STOPPED);
+		HyundaiMotor.setMotorStatus(MotorStatus.STOPPED);
+		LGMotor.setMotorStatus(MotorStatus.STOPPED);
+		SamsungMotor.setMotorStatus(MotorStatus.STOPPED);
+		
 		door.open();
-		hyundaiMotor.move(Direction.DOWN);
-		
+		HyundaiMotor.move(Direction.DOWN);
+		LGMotor.move(Direction.DOWN);
+		SamsungMotor.move(Direction.DOWN);
 
 	}
 
